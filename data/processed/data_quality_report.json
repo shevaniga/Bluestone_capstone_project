@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-06-02 18:09:55",
+  "dataset_profiles": [
+    {
+      "name": "fund_master",
+      "rows": 40,
+      "cols": 15,
+      "null_cols": 0,
+      "total_nulls": 0,
+      "dup_rows": 0,
+      "anomalies": []
+    },
+    {
+      "name": "nav_history",
+      "rows": 64320,
+      "cols": 3,
+      "null_cols": 0,
+      "total_nulls": 0,
+      "dup_rows": 0,
+      "anomalies": []
+    },
+    {
+      "name": "aum_by_fund_house",
+      "rows": 90,
+      "cols": 5,
+      "null_cols": 0,
+      "total_nulls": 0,
+      "dup_rows": 0,
+      "anomalies": []
+    },
+    {
+      "name": "monthly_sip_inflows",
+      "rows": 48,
+      "cols": 6,
+      "null_cols": 1,
+      "total_nulls": 12,
+      "dup_rows": 0,
+      "anomalies": [
+        "'yoy_growth_pct' has 25.0% nulls"
+      ]
+    },
+    {
+      "name": "category_inflows",
+      "rows": 144,
+      "cols": 3,
+      "null_cols": 0,
+      "total_nulls": 0,
+      "dup_rows": 0,
+      "anomalies": []
+    },
+    {
+      "name": "industry_folio_count",
+      "rows": 21,
+      "cols": 6,
+      "null_cols": 0,
+      "total_nulls": 0,
+      "dup_rows": 0,
+      "anomalies": []
+    },
+    {
+      "name": "scheme_performance",
+      "rows": 40,
+      "cols": 19,
+      "null_cols": 0,
+      "total_nulls": 0,
+      "dup_rows": 0,
+      "anomalies": []
+    },
+    {
+      "name": "investor_transactions",
+      "rows": 32778,
+      "cols": 13,
+      "null_cols": 0,
+      "total_nulls": 0,
+      "dup_rows": 0,
+      "anomalies": []
+    },
+    {
+      "name": "portfolio_holdings",
+      "rows": 322,
+      "cols": 8,
+      "null_cols": 0,
+      "total_nulls": 0,
+      "dup_rows": 0,
+      "anomalies": []
+    },
+    {
+      "name": "benchmark_indices",
+      "rows": 8050,
+      "cols": 3,
+      "null_cols": 0,
+      "total_nulls": 0,
+      "dup_rows": 0,
+      "anomalies": []
+    }
+  ],
+  "amfi_validation": {
+    "fm_codes": 40,
+    "nav_codes": 40,
+    "matched": 40,
+    "in_fm_not_nav": 0,
+    "in_nav_not_fm": 0,
+    "coverage_pct": 100.0,
+    "quality_flag": "PASS",
+    "missing_sample": []
+  }
+}

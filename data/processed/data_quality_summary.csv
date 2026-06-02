@@ -1,0 +1,11 @@
+Dataset,Rows,Columns,Null Cols,Total Nulls,Dup Rows,Quality
+fund_master,40,15,0,0,0,LOW
+nav_history,46000,3,0,0,0,LOW
+aum_by_fund_house,90,5,0,0,0,LOW
+monthly_sip_inflows,48,6,1,12,0,MEDIUM
+category_inflows,144,3,0,0,0,LOW
+industry_folio_count,21,6,0,0,0,LOW
+scheme_performance,40,19,0,0,0,LOW
+investor_transactions,32778,13,0,0,0,LOW
+portfolio_holdings,322,8,0,0,0,LOW
+benchmark_indices,8050,3,0,0,0,LOW
