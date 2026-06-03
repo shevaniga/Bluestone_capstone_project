@@ -1,0 +1,11 @@
+query,status,rows
+Total NAV rows,PASS,1
+Distinct funds in NAV,PASS,1
+NAV date range,PASS,1
+Total investor transactions,PASS,1
+Transaction type split,PASS,3
+Top 5 fund houses by AUM,PASS,5
+Schemes by category,PASS,2
+Negative Sharpe funds,PASS,1
+Expense ratio distribution,PASS,1
+Portfolio sector breakdown,PASS,10
