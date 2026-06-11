@@ -50,13 +50,14 @@ bluestock_mf_capstone/
 │   ├── data_cleaning.py
 │   ├── compute_metrics.py
 │   ├── recommender.py
+│   └── bonus_b5_email_report.py
 ├── sql/
 │   ├── schema.sql
-│   └── queries.sql
-│   └── queries_day2.sql
+│   ├── queries.sql
+│   ├── queries_day2.sql
 │   └── schema_day2.sql
 ├── dashboard/
-│   ├── streamlit_app.py
+│   ├── bonus_b2_streamlit_app.py
 │   ├── powerbi_dashboard.pdf
 │   └── bluestock_mf_dashboard.pbix
 ├── reports/
@@ -110,6 +111,7 @@ HHI        = sum(sector_weight_i ** 2)
 | Bonus | Script | Description |
 |-------|--------|-------------|
 | B2 | dashboard/streamlit_app.py | 4-page Streamlit web dashboard |
+| B5 | bonus_b5_email_report.py | Automated HTML email performance report |
 
 
 ---
